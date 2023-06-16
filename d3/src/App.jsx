@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { Basic } from './components/basics/Basic'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      
+      <Basic />
     </>
   )
 }
