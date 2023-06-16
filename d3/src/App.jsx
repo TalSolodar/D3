@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { BarChart } from "./components/BarChart/BarChart"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      
+      <BarChart />
     </>
   )
 }
