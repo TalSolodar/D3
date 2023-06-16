@@ -1,0 +1,11 @@
+.container{
+    width: 250px;
+    height: 200px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    border: 1px solid red;
+}
+
+.bar{
+    fill: yellow;
+}

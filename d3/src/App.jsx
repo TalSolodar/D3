@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import { Basic } from './components/basics/Basic'
+import { BarChart } from "./components/BarChart/BarChart"
 
 function App() {
-  
+
 
   return (
     <>
-      <Basic />
+      <BarChart />
     </>
   )
 }
