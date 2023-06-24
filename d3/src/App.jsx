@@ -1,11 +1,15 @@
 import { BarChart } from "./components/BarChart/BarChart"
+import { ForceDirectedGraph } from "./components/ForceDirectedGraph/ForceDirectedGraph"
+import { BasicReact } from "./components/basics/BasicReact"
 
 function App() {
 
 
   return (
     <>
-      <BarChart />
+      {/* <BarChart /> */}
+      <ForceDirectedGraph/>
+      {/* <BasicReact /> */}
     </>
   )
 }
